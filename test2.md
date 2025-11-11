@@ -125,20 +125,102 @@ odloučenosti
 
 > todo
 
-Vysvětlete, v čem spočívá opakované vězňovo dilema.
-Jmenujte strategie, které lze použít při opakovaném vězňově dilematu.
-Popište, jaké vysvětlující faktory podle E.Rogerse působí při šíření inovací (tj. co přispívá k rychlejšímu či
+### 13. Vysvětlete, v čem spočívá opakované vězňovo dilema.
+### 14. Jmenujte strategie, které lze použít při opakovaném vězňově dilematu.
+### 15. Popište, jaké vysvětlující faktory podle E.Rogerse působí při šíření inovací (tj. co přispívá k rychlejšímu či
 pomalejšímu šíření inovace).
-Popište, jaké skupiny osvojitelů inovací definoval E.Rogers a jakou křivkou je popsáno rozložení skupin osvojitelů v
+### 16. Popište, jaké skupiny osvojitelů inovací definoval E.Rogers a jakou křivkou je popsáno rozložení skupin osvojitelů v
 populaci.
-V přednášce bylo popsáno několik modelů šíření inovací či nákazy, jeden z modelů jmenujte a popište jeho princip.
-V přednášce bylo vysvětleno, jak lze modelovat sociální vliv na utváření a polarizaci názorů, jeden z modelů popište.
-Vysvětlete pojem síla slabých vazeb ve vztahu ke komplexním sítím.
-Vysvětlete pojem bod zvratu ve vztahu k sociální dynamice, popište jeho zachycení v konkrétním modelu.
-Vysvětlete rozdíl mezi šířením jednoduché nákazy a šířením komplexní nákazy (v síti).
-Vysvětlete pozici simulace mezi vědeckými metodami (např. tak, že uvedete rozdíl mezi indukcí, dedukcí a simulací).
+### 17. V přednášce bylo popsáno několik modelů šíření inovací či nákazy, jeden z modelů jmenujte a popište jeho princip.
+### 18. V přednášce bylo vysvětleno, jak lze modelovat sociální vliv na utváření a polarizaci názorů, jeden z modelů popište.
+### 19. Vysvětlete pojem síla slabých vazeb ve vztahu ke komplexním sítím.
+Hypotéza slabých vazeb: pokud má osoba
+X vazbu s osobami Y, Z, tak je větší šance,
+že i mezi Y a Z existuje vazba.
+• Sociální síť je tvořena skupinami, intenzivně (silně)
+propojenými uvnitř a slabě spojenými navenek.
+• Rychlost a míra šíření v síti závisí na spojích mezi prvky sítě.
+Slabé vazby mnohonásobně zvyšují počet propojení; s jejich
+počtem roste rychlost šíření.
+• Pokud skupina nemá dostatek slabých vazeb, nezíská
+informace ze vzdálenějších částí sociální sítě (tj. členové
+skupiny budou mít přístup jen k novinkám a názorům zevnitř
+vlastní skupiny).
+
+### 20. Vysvětlete pojem bod zvratu ve vztahu k sociální dynamice, popište jeho zachycení v konkrétním modelu.
+Bod zvratu (prahová hodnota, treshold)
+– Moment, kdy se jedinec přidá k davovému chování
+– Prahová hodnota je individuální a souvisí s užitkem (ziskem)
+z toho, že se jedinec chová/nechová stejně, jako okolí
+5 agentů se rozhoduje, zda nosit výstřední
+módní doplněk, například červenou
+čepičku
+a) Prahové hodnoty 1,1,1,2,2 (průměr
+1,4) …žádný agent si čepičku nevezme
+b) 0,1,2,2,2 (průměr 1,4) …první agent si
+čepičku vezme, to je důvod, aby si ji
+vzal druhý agent, což je důvod, aby si ji
+vzali i další tři agenti najednou
+c) 0,1,2,3,4 (průměr 2,5)
+Kolektivní akce je pravděpodobnější, když
+prahové hodnoty jsou nižší a variabilnější.
+
+### 21. Vysvětlete rozdíl mezi šířením jednoduché nákazy a šířením komplexní nákazy (v síti).
+(IDK) Informace a nemoci se šíří formou jednoduché nákazy,
+zatímco inovace se typicky šíří komplexní nákazou
+Slabá pouta v sítích + sítě malého světa ulehčují šíření
+jednoduchých nákaz; komplexní nákazy jimi postupují
+pomaleji
+
+
+### 22. Vysvětlete pozici simulace mezi vědeckými metodami (např. tak, že uvedete rozdíl mezi indukcí, dedukcí a simulací).
+Výpočetní modely vs. vědecké metody
+• Indukce
+– Pracujeme přímo se zkoumaným systémem, který může být i
+obrovský
+– Odhalování nových vztahů z empirických dat – např. vyhodnocování
+dotazníků, výsledků měření,…
+– Závěry jsou jen popisné
+• Dedukce
+– Pracujeme se zjednodušeným modelem světa
+– Odvozování a dokazování nových tvrzení z daných předpokladů a
+platných axiomů - např. hledání rovnovážného bodu ve hře pro dva
+hráče za předpokladu axiomu o racionálním výběru
+– Exaktní důkazy jsou možné jen při malém modelu
+• Simulace
+– Používají se modely (jako v dedukci), ale neprovádí se dokazování
+platnosti tvrzení, nýbrž generování dat, která zkoumáme a
+popisujeme a která mají jiný charakter, než data sbíraná/měřená a
+zpracovávaná induktivně
+
 ### 23. Vysvětlete pojem model, uveďte hlavní kategorie modelů.
+Model = výsledek procesu
+modelování; zjednodušená
+reprezentace objektů nebo
+jevů/procesů reálného světa
+Typy modelů
+• Mentální – základ lidského vnímání světa a myšlení
+• Fyzické – reálné objekty; měřítko (zvětšení/zmenšení)
+• Matematické – rovnice vyjadřující stav světa
+– Popisné modely vystihují vztahy proměnných v časovém
+okamžiku (např. regresní modely), nic nevysvětlují
+– Dynamické (analytické) modely říkají, jak se mění hodnoty
+proměnných v čase (např. diferenciální rovnice, např. vztah
+mezi velikostí populace predátora a populace kořisti; vztah
+nabídka-poptávka); hledáme řešení (např. rovnovážnou situaci)
+• Výpočetní (programy nebo matematické zápisy) model
+zkoumáme simulací (výpočtem – spuštění programu
+nebo řešení rovnic); nutný je dostatečný výpočetní
+výkon
+
 ### 24. Jmenujte základní kroky tvorby agentových simulačních modelů.
+(IDK) Iterativní proces s návraty k přechozím bodům:
+1. Návrh modelu
+2. Implementace modelu
+3. Verifikace a validace
+4. Simulace a analýza
+5. Sumarizace a sdílení výsledků
+6. Reprodukce simulace
 
 
 ### 25. Vysvětlete, z čeho se skládá a k čemu se používá protokol ODD.
