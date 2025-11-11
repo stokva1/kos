@@ -272,30 +272,44 @@ Verifikace = ověření, zda model dělá, co si myslíme, že by dělat měl
 • Možnost validace modelu!
 
 ### 33. Uveďte, podle jakých hledisek lze klasifikovat modelovací přístupy, použitelné v simulacích pohybu chodců.
-• Mikroskopický model – zachycení jednotlivcůs individuálními charakteristikami a trasami
-• Makroskopický model – agregovaný pohled (hustoty a rychlosti)
-• Tři proměnné (prostor, čas, rychlost) mohou být diskrétní nebo souvislé 
-• Deterministický model – následující stav je jednoznačně určen předchozím stavem a akcemi
-• Stochastický model – použitím pravděpodobností překleneme chybějící poznatky o procesech
-• Pravidlový model (rule-based) – agent má systém pravidel pro různé situace
-• Model sil (force-based) – agentem manipulují síly z okolí (fyzikální mechanistický pohled)
-• Vysoce věrné modely (high-fidelity) – snaha namodelovat chování chodce co nejvěrněji i za cenu velké složitosti modelu
-• Málo věrné modely (low-fidelity) – chodec jako částice v prostoru, bez inteligence; relativně menší počet parametrů modelu
+
+- Mikroskopický model – zachycuje jednotlivé chodce s individuálními charakteristikami a trasami
+- Makroskopický model – agregovaný pohled, popisuje proudění davu pomocí veličin jako hustota a rychlost
+- Rozlišení proměnných – prostor, čas a rychlost mohou být diskrétní nebo spojité
+- Deterministický model – další stav systému je jednoznačně určen předchozím stavem a akcemi
+- Stochastický model – využívá pravděpodobnosti k překlenutí neznalosti detailních procesů
+- Pravidlový model (rule-based) – agent se řídí souborem pravidel pro různé situace
+- Model sil (force-based) – chování agenta je výsledkem působení sil z okolí (cíle, ostatní chodci, překážky)
+- Vysoce věrné modely (high-fidelity) – snaha o realistické zobrazení chování i za cenu složitosti
+- Málo věrné modely (low-fidelity) – chodec reprezentován zjednodušeně (např. částice), menší počet parametrů
 
 ### 34. Popište modelování pohybu chodců za využití buněčného automatu.
-• Diskrétní prostor (2D mřížka)
-• V jedné buňce nejvýš 1 chodec (překážka/prázdná buňka
-• Diskrétní čas – paralelní přesuny + řešení konfliktů
-• Směr pohybu závisí na interpretaci stavu sousedních buněk (směřovat k cíli, vyhýbání se kolizím)
-• Reprezentace např. maticí pravděpodobností přechodu do sousedních buněk:
-• Varianty modelu: různé rychlosti, různé typy chodců, různá definice okolí buňky (4, 6, 8 sousedů), více
-chodců v buňce...
+
+- Prostor – reprezentován jako diskrétní 2D mřížka
+- Buňka – může obsahovat nejvýše jednoho chodce, překážku nebo být prázdná
+- Čas – diskrétní kroky; všichni agenti se pohybují paralelně
+- Konflikty – při snaze více chodců vstoupit do stejné buňky se rozhoduje podle pravidel nebo pravděpodobností
+- Směr pohybu – určen podle stavu okolních buněk (blízkost cíle, vyhýbání se kolizím)
+- Reprezentace – matice pravděpodobností přechodu do sousedních buněk
+- Varianty modelu:
+  - různé rychlosti a typy chodců
+  - různé definice okolí buňky (4, 6, 8 sousedů)
+  - možnost více chodců v jedné buňce (rozšířené verze)
 
 ### 35. Popište modelování pohybu chodců za využití modelu sociálních sil.
-(repulsive) síly, kterými působí cíl, výchozí bod, ostatní
-chodci a překážky, světelné a zvukové signály, míra
-stresu, sklon terénu. Výsledné chování agenta řídí souhrn působících sil +
-další faktory (zorné pole, snaha šetřit energií,
-držet se ve skupině,…) 
-Výhody:realistické trajektorie a interakce, přirozeně vznikají jevy jako lanes, oscilace u zúžení atd.
-Nevýhody:náročnější výpočetně, nutnost kalibrace parametrů (síly, čas reakce).
+
+- Každý chodec je modelován jako částice, na kterou působí síly:
+  - přitažlivá síla směrem k cíli
+  - odpudivé síly od ostatních chodců a překážek
+  - vlivy prostředí – světelné, zvukové signály, stres, sklon terénu
+- Výsledné chování je dáno součtem všech působících sil
+- Do výpočtu mohou vstupovat i další faktory:
+  - omezené zorné pole
+  - snaha šetřit energií
+  - držení se ve skupině
+- Výhody:
+  - realistické trajektorie a interakce
+  - spontánně vznikají jevy jako lanes nebo oscilace u zúžení
+- Nevýhody:
+  - výpočetně náročný
+  - nutnost kalibrace parametrů (intenzity sil, doba reakce)
