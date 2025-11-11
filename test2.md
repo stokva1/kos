@@ -133,143 +133,136 @@ pomalejšímu šíření inovace).
 populaci.
 ### 17. V přednášce bylo popsáno několik modelů šíření inovací či nákazy, jeden z modelů jmenujte a popište jeho princip.
 ### 18. V přednášce bylo vysvětleno, jak lze modelovat sociální vliv na utváření a polarizaci názorů, jeden z modelů popište.
+## Test 19–32
+
 ### 19. Vysvětlete pojem síla slabých vazeb ve vztahu ke komplexním sítím.
-Hypotéza slabých vazeb: pokud má osoba
-X vazbu s osobami Y, Z, tak je větší šance,
-že i mezi Y a Z existuje vazba.
-• Sociální síť je tvořena skupinami, intenzivně (silně)
-propojenými uvnitř a slabě spojenými navenek.
-• Rychlost a míra šíření v síti závisí na spojích mezi prvky sítě.
-Slabé vazby mnohonásobně zvyšují počet propojení; s jejich
-počtem roste rychlost šíření.
-• Pokud skupina nemá dostatek slabých vazeb, nezíská
-informace ze vzdálenějších částí sociální sítě (tj. členové
-skupiny budou mít přístup jen k novinkám a názorům zevnitř
-vlastní skupiny).
+
+- Hypotéza slabých vazeb: pokud má osoba X vazbu s osobami Y, Z, tak je větší šance, že i mezi Y a Z existuje vazba
+- Sociální síť je tvořena skupinami, intenzivně (silně) propojenými uvnitř a slabě spojenými navenek
+- Rychlost a míra šíření v síti závisí na spojích mezi prvky sítě
+- Slabé vazby mnohonásobně zvyšují počet propojení; s jejich počtem roste rychlost šíření
+- Pokud skupina nemá dostatek slabých vazeb, nezíská informace ze vzdálenějších částí sociální sítě (tj. členové skupiny budou mít přístup jen k novinkám a názorům zevnitř vlastní skupiny)
 
 ### 20. Vysvětlete pojem bod zvratu ve vztahu k sociální dynamice, popište jeho zachycení v konkrétním modelu.
-Bod zvratu (prahová hodnota, treshold)
-– Moment, kdy se jedinec přidá k davovému chování
-– Prahová hodnota je individuální a souvisí s užitkem (ziskem)
-z toho, že se jedinec chová/nechová stejně, jako okolí
-5 agentů se rozhoduje, zda nosit výstřední
-módní doplněk, například červenou
-čepičku
-a) Prahové hodnoty 1,1,1,2,2 (průměr
-1,4) …žádný agent si čepičku nevezme
-b) 0,1,2,2,2 (průměr 1,4) …první agent si
-čepičku vezme, to je důvod, aby si ji
-vzal druhý agent, což je důvod, aby si ji
-vzali i další tři agenti najednou
-c) 0,1,2,3,4 (průměr 2,5)
-Kolektivní akce je pravděpodobnější, když
-prahové hodnoty jsou nižší a variabilnější.
+
+- Bod zvratu (prahová hodnota, threshold) – moment, kdy se jedinec přidá k davovému chování
+- Prahová hodnota je individuální a souvisí s užitkem (ziskem) z toho, že se jedinec chová/nechová stejně jako okolí
+- Příklad modelu: 5 agentů se rozhoduje, zda nosit výstřední módní doplněk (např. červenou čepičku)
+  - a) Prahové hodnoty 1,1,1,2,2 (průměr 1,4) – žádný agent si čepičku nevezme
+  - b) 0,1,2,2,2 (průměr 1,4) – první agent si čepičku vezme, to je důvod, aby si ji vzal druhý agent, což spustí reakci i u dalších tří
+  - c) 0,1,2,3,4 (průměr 2,5) – kolektivní akce je pravděpodobnější, když prahové hodnoty jsou nižší a variabilnější
 
 ### 21. Vysvětlete rozdíl mezi šířením jednoduché nákazy a šířením komplexní nákazy (v síti).
-(IDK) Informace a nemoci se šíří formou jednoduché nákazy,
-zatímco inovace se typicky šíří komplexní nákazou
-Slabá pouta v sítích + sítě malého světa ulehčují šíření
-jednoduchých nákaz; komplexní nákazy jimi postupují
-pomaleji
 
+- Jednoduchá nákaza – k přenosu stačí kontakt s jedním nakaženým (typicky infekce, informace)
+- Komplexní nákaza – přenos vyžaduje více kontaktů nebo sociální podporu (typicky inovace, změna chování)
+- Slabá pouta a sítě malého světa usnadňují šíření jednoduchých nákaz
+- Komplexní nákazy jimi postupují pomaleji, protože vyžadují více potvrzení od sousedů
 
 ### 22. Vysvětlete pozici simulace mezi vědeckými metodami (např. tak, že uvedete rozdíl mezi indukcí, dedukcí a simulací).
-Výpočetní modely vs. vědecké metody
-• Indukce
-– Pracujeme přímo se zkoumaným systémem, který může být i
-obrovský
-– Odhalování nových vztahů z empirických dat – např. vyhodnocování
-dotazníků, výsledků měření,…
-– Závěry jsou jen popisné
-• Dedukce
-– Pracujeme se zjednodušeným modelem světa
-– Odvozování a dokazování nových tvrzení z daných předpokladů a
-platných axiomů - např. hledání rovnovážného bodu ve hře pro dva
-hráče za předpokladu axiomu o racionálním výběru
-– Exaktní důkazy jsou možné jen při malém modelu
-• Simulace
-– Používají se modely (jako v dedukci), ale neprovádí se dokazování
-platnosti tvrzení, nýbrž generování dat, která zkoumáme a
-popisujeme a která mají jiný charakter, než data sbíraná/měřená a
-zpracovávaná induktivně
+
+- Indukce
+  - Pracujeme přímo se zkoumaným systémem, který může být i rozsáhlý
+  - Odhalování nových vztahů z empirických dat (např. dotazníky, měření)
+  - Závěry jsou popisné, vyplývají z pozorování
+- Dedukce
+  - Pracujeme se zjednodušeným modelem světa
+  - Odvozování nových tvrzení z daných předpokladů a axiomů
+  - Příklady: hledání rovnovážného bodu ve hře, model racionální volby
+  - Exaktní důkazy možné jen u jednoduchých modelů
+- Simulace
+  - Využívá modely jako dedukce, ale místo dokazování generuje data
+  - Výsledky zkoumáme empiricky podobně jako při indukci
+  - Umožňuje zkoumat složité systémy, kde analytické řešení není možné
 
 ### 23. Vysvětlete pojem model, uveďte hlavní kategorie modelů.
-Model = výsledek procesu
-modelování; zjednodušená
-reprezentace objektů nebo
-jevů/procesů reálného světa
-Typy modelů
-• Mentální – základ lidského vnímání světa a myšlení
-• Fyzické – reálné objekty; měřítko (zvětšení/zmenšení)
-• Matematické – rovnice vyjadřující stav světa
-– Popisné modely vystihují vztahy proměnných v časovém
-okamžiku (např. regresní modely), nic nevysvětlují
-– Dynamické (analytické) modely říkají, jak se mění hodnoty
-proměnných v čase (např. diferenciální rovnice, např. vztah
-mezi velikostí populace predátora a populace kořisti; vztah
-nabídka-poptávka); hledáme řešení (např. rovnovážnou situaci)
-• Výpočetní (programy nebo matematické zápisy) model
-zkoumáme simulací (výpočtem – spuštění programu
-nebo řešení rovnic); nutný je dostatečný výpočetní
-výkon
+
+- Model = výsledek procesu modelování; zjednodušená reprezentace objektů nebo jevů reálného světa
+- Typy modelů:
+  - Mentální – základ lidského vnímání světa a myšlení
+  - Fyzické – reálné objekty v měřítku (zvětšeniny, zmenšeniny)
+  - Matematické – vyjádřené pomocí rovnic
+    - Popisné modely – vystihují vztahy proměnných v daném okamžiku (např. regresní modely)
+    - Dynamické (analytické) modely – popisují změny proměnných v čase (např. diferenciální rovnice, nabídka–poptávka)
+  - Výpočetní modely – zkoumány simulací (spuštění programu nebo řešení rovnic); nutný výpočetní výkon
 
 ### 24. Jmenujte základní kroky tvorby agentových simulačních modelů.
-(IDK) Iterativní proces s návraty k přechozím bodům:
-1. Návrh modelu
-2. Implementace modelu
-3. Verifikace a validace
-4. Simulace a analýza
-5. Sumarizace a sdílení výsledků
-6. Reprodukce simulace
 
+- Iterativní proces s návraty k předchozím krokům:
+  - Návrh modelu
+  - Implementace modelu
+  - Verifikace a validace
+  - Simulace a analýza
+  - Sumarizace a sdílení výsledků
+  - Reprodukce simulace
 
 ### 25. Vysvětlete, z čeho se skládá a k čemu se používá protokol ODD.
-Standardní protokol pro formulování a popis agentových modelů
-<img width="1123" height="622" alt="image" src="https://github.com/user-attachments/assets/1dd03dc6-a9b9-48a4-8583-57ea79128a94" />
-<img width="1182" height="763" alt="image" src="https://github.com/user-attachments/assets/35211397-e209-4e36-8f5f-b456219b0e76" />
 
+- Standardní protokol pro formulování a popis agentových modelů
+- Používá se k jednoznačnému a srozumitelnému popisu modelu
+- Umožňuje reprodukovatelnost a porovnatelnost mezi výzkumy
+- ODD = Overview, Design concepts, Details
+  - Overview – přehled: cíle modelu, entity, procesy, měřítko
+  - Design concepts – hlavní principy: adaptace, interakce, heterogenita, emergentní chování
+  - Details – detaily implementace: inicializace, vstupy, výstupy
+- Vizualizace schémat a diagramů se používá pro popis struktury modelu
 
 ### 26. Vysvětlete, proč je třeba agentové modely kalibrovat a jak se to provádí.
-Agentové modely popisují individuální chování agentů pomocí mnoha parametrů
-Tyto parametry nejsou univerzální a musí odpovídat reálnému chování lidí v daném prostředí.
-Je tedy třeba kalibrovat (= doplnit kvantitativní informace, nastavit parametry podle reality nebo historických dat, dat z dotazníků, statisticky zpracovaných měření,…)
+
+- Agentové modely popisují chování jednotlivců pomocí mnoha parametrů
+- Tyto parametry nejsou univerzální, musí odpovídat reálnému chování lidí v daném prostředí
+- Kalibrace = nastavení parametrů podle reality (např. podle historických dat, měření, dotazníků)
+- Provádí se statistickým přizpůsobením výsledků modelu empirickým datům
+- Cílem je, aby model realisticky reprodukoval chování skutečného systému
 
 ### 27. Vysvětlete rozdíl mezi validací a verifikací agentového simulačního modelu.
-Validace = ověření, zda model odpovídá chování reálného systému
-Verifikace = ověření, zda model dělá, co si myslíme, že by dělat měl
+
+- Validace – ověření, zda model odpovídá chování reálného systému
+- Verifikace – ověření, zda model funguje podle návrhu (tj. dělá to, co má dělat)
 
 ### 28. Popište, z jakých hledisek je model zkoumán při prověřování validity.
-• Strukturální validita = zda vztahy v modelu odpovídají vztahům v reálném systému
-• Prediktivní validita = zda chování modelu odpovídá chování reálného systému
-	– Základní validita = chování modelu se základními parametry odpovídá systému
-	– Retrodikce = použijeme-li historická data, model dává odpovídající výsledky pro daný časový interval
-	– Rovnováha = pokud lze analyticky stanovit rovnovážný stav při určitých podmínkách, model jej musí produkovat
-	– Mezní hodnoty parametrů = zda se model chová přijatelně při krajích (i když nereálných) hodnotách
+
+- Strukturální validita – zda vztahy v modelu odpovídají vztahům v reálném systému
+- Prediktivní validita – zda chování modelu odpovídá chování reálného systému
+  - Základní validita – model s výchozími parametry odpovídá pozorovanému systému
+  - Retrodikce – při použití historických dat model správně reprodukuje minulost
+  - Rovnováha – model produkuje rovnovážný stav, pokud je znám analyticky
+  - Mezní hodnoty – model se chová přijatelně i při krajních (nereálných) hodnotách parametrů
 
 ### 29. Jmenujte aplikační oblasti, v nichž se uplatňují modely pohybu chodců (davu).
-• Dopravní plánování a architektura – efektivnost dopravy, evakuační postupy pro různá prostředí
-• Psychologie – ověřování hypotéz o chování lidí za různých situací
-• Marketing – porozumění chování lidí – muzea, letiště, nákupní centra
-• Vizuální efekty – věrohodné modely pro filmy, počítačové hry
-• Informatika – umělá inteligence, algoritmy pro předchozí aplikace
+
+- Dopravní plánování a architektura – efektivnost dopravy, návrh evakuací
+- Psychologie – ověřování hypotéz o chování lidí v různých situacích
+- Marketing – analýza chování návštěvníků (letiště, nákupní centra, muzea)
+- Vizuální efekty – realistické davové scény ve filmech a hrách
+- Informatika – algoritmy pro umělou inteligenci a simulace
 
 ### 30. Vysvětlete principy modelování pohybu chodců (davu).
-• Agent reprezentuje typického chodce, který se řídí jednoduchými pravidly
-• Chůzi chápeme jako aktivitu částečně
-	– cílenou (chodec obvykle má cíl)
-	– náhodnou (vyhýbání se, drobné změny směru a rychlosti)
-• Prostor je dvourozměrný
-• Podstatné je měřítko
-	– Prostorové (rozměr chodce ve vztahu k rozměru mapy)
-	– Časové (rychlost chodce ve vztahu k běhu simulace)
+
+- Agent reprezentuje typického chodce, který se řídí jednoduchými pravidly
+- Chůze je aktivita částečně:
+  - cílená (chodec má cíl)
+  - náhodná (vyhýbání se, drobné odchylky)
+- Prostor je dvourozměrný
+- Důležité je měřítko:
+  - prostorové – rozměr chodce vůči mapě
+  - časové – rychlost chodce vůči časovému kroku simulace
 
 ### 31. Jmenujte (nakreslete) typické struktury, které mohou být generovány pohybem chodců.
->TODO
+
+- Typické samoorganizované vzory:
+  - proudy (lanes) v protisměru
+  - oscilace u zúžení
+  - shluky u překážek
+  - kruhové pohyby kolem cílů nebo bariér
 
 ### 32. Vysvětlete pojem základní diagram (ve vztahu k modelování pohybu chodců).
-• Empirická zjišťování vztahu mezi hustotou davu a rychlostí, liší se pro různé prostory (chodník, náměstí, schodiště,…)
-• Analogie: pohyb tekutin
-• Možnost validace modelu!
+
+- Empiricky zjišťovaný vztah mezi hustotou davu a průměrnou rychlostí pohybu
+- Liší se podle prostředí (chodník, náměstí, schodiště apod.)
+- Slouží jako analogie k pohybu tekutin
+- Umožňuje validaci modelů – simulované chování lze porovnat s naměřenými daty
+
 
 ### 33. Uveďte, podle jakých hledisek lze klasifikovat modelovací přístupy, použitelné v simulacích pohybu chodců.
 
